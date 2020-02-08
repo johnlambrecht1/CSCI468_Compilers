@@ -1,26 +1,32 @@
-lexer grammar step1;
+grammar step1;
 //CAPS : CAPS is a token (terminal) made up of one or more characters.
 //small case symbols are non-terminals.
 
 //keywords: KEYWORD;
 
-COMMENT : '--'.*[\n]-> skip;
+rg : 'PROGRAM' STRINGLITERAL;
 
-KEYWORD : 'PROGRAM'|'BEGIN'|'END'|'FUNCTION'|'READ'|'WRITE'|
-          'IF'|'ELSE'|'ENDIF'|'WHILE'|'ENDWHILE'|'CONTINUE'|'BREAK'|
-          'RETURN'|'INT'|'VOID'|'STRING'|'FLOAT';
+COMMENT : '--'.*?[\n]-> skip;
+
+KEYWORD : 'PROGRAM'|'BEGIN'|'END'|'FUNCTION'|'READ'|'WRITE'|'IF'|'ELSE'|'ENDIF'|'WHILE'|'ENDWHILE'|'CONTINUE'|'BREAK'|'RETURN'|'INT'|'VOID'|'STRING'|'FLOAT';
 
 OPERATOR :  '<='|'>='|'!='|':='|'+'|'-'|'*'|'/'|'='|
             '<'|'>'|'('|')'|';'|',';
 
 STRINGLITERAL : '"'(.~'"')*'"';
 
+
+
+
 //FLOATLITERAL :
 
 //INTLITERAL :
 
+WS : [ \n\t\r]+ -> skip;
+
 //IDENTIFIER :
 //:= + - * / = != < > ( ) ; , <= >=
+
 
 ///* Program */
 //program           -> PROGRAM id BEGIN pgm_body END
