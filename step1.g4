@@ -4,19 +4,58 @@ grammar step1;
 
 //keywords: KEYWORD;
 
-rg : 'PROGRAM' STRINGLITERAL;
+rg : PROGRAM OPERATOR;
 
 COMMENT : '--'.*?[\n]-> skip;
 
-KEYWORD : 'PROGRAM'|'BEGIN'|'END'|'FUNCTION'|'READ'|'WRITE'|'IF'|'ELSE'|'ENDIF'|'WHILE'|'ENDWHILE'|'CONTINUE'|'BREAK'|'RETURN'|'INT'|'VOID'|'STRING'|'FLOAT';
+KEYWORD : PROGRAM|BEGIN|END|FUNCTION|READ|WRITE|IF|ELSE|ENDIF|WHILE|ENDWHILE|CONTINUE|BREAK|RETURN|INT|VOID|STRING|FLOAT;
+
+PROGRAM : 'PROGRAM';
+
+BEGIN   : 'BEGIN';
+
+END     : 'END';
+
+FUNCTION: 'FUNCTION';
+
+READ    : 'READ';
+
+WRITE   : 'WRITE';
+
+IF      : 'IF';
+
+ELSE    : 'ELSE';
+
+ENDIF   : 'ENDIF';
+
+WHILE   : 'WHILE';
+
+ENDWHILE: 'ENDWHILE';
+
+CONTINUE: 'CONTINUE';
+
+BREAK   : 'BREAK';
+
+RETURN  : 'RETURN';
+
+INT     : 'INT';
+
+VOID    : 'VOID';
+
+STRING  : 'STRING';
+
+FLOAT   : 'FLOAT';
 
 OPERATOR :  '<='|'>='|'!='|':='|'+'|'-'|'*'|'/'|'='|
             '<'|'>'|'('|')'|';'|',';
 
 STRINGLITERAL : '"'(.~'"')*'"';
 
+FLOATLITERAL : [0-9]+'.'[0-9]+|'.'[0-9]+;
 
+INTLITERAL  : [0-9]+;
 
+IDENTIFIER  : [a-zA-Z]([a-z]|[A-Z]|[0-9])*;
 
 //FLOATLITERAL :
 
