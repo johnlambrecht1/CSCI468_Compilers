@@ -1,41 +1,24 @@
 import org.antlr.v4.runtime.*;
-import org.antlr.v4.runtime.Lexer;
-import org.antlr.v4.runtime.CharStream;
-import org.antlr.v4.runtime.Token;
-import org.antlr.v4.runtime.TokenStream;
-import org.antlr.v4.runtime.atn.*;
-import org.antlr.v4.runtime.dfa.DFA;
-import org.antlr.v4.runtime.misc.*;
-import org.antlr.v4.runtime.ParserRuleContext;
-import org.antlr.v4.runtime.tree.*;
-import org.antlr.v4.runtime.tree.ErrorNode;
-import org.antlr.v4.runtime.tree.TerminalNode;
-import org.antlr.v4.runtime.tree.ParseTreeListener;
-
-import java.util.List;
-import java.util.Iterator;
-import java.util.ArrayList;
-import java.io.*;
-
-import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.Token;
+
 import java.io.FileWriter;
+
 public class Driver {
 
     public static void main(String[] args) throws Exception     {
 
         String[] tokens = args[0].split("\\.");
-        // System.out.println( "tokens = " + tokens );// debugging output
+        // System.out.println( "tokens = " + tokens ); // debugging output
         String file = tokens[0];
-        // System.out.println( "file = " + file );// debugging output
+        // System.out.println( "file = " + file ); // debugging output
         CharStream chars = CharStreams.fromFileName( "./" + args[0] );
-        // System.out.println( "chars = " + chars );// debugging output
+        // System.out.println( "chars = " + chars ); // debugging output
         Step1Lexer step1Lexer = new Step1Lexer( chars );
-        // System.out.println( "step1Lexer = " + step1Lexer );// debugging output
+        // System.out.println( "step1Lexer = " + step1Lexer ); // debugging output
         Vocabulary vocabulary = step1Lexer.getVocabulary();
-        // System.out.println( "vocabulary = " + vocabulary );// debugging output
+        // System.out.println( "vocabulary = " + vocabulary ); // debugging output
         Token current = step1Lexer.nextToken();
 
         // System.out.println( "Output to " + file ); // output notification
