@@ -1,8 +1,8 @@
-rem  echo off
-cls
+#!/bin/bash
+# echo off
+clear
 
-rem Run the program
-
-call antlr4 Little.g4 -long-messages
+# Run the program
+call antlr4 Step1.g4 -long-messages
 javac *.java
 java Driver %*
