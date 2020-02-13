@@ -8,4 +8,4 @@ rem Delete the previously generated .java files
 IF EXIST Step1*.java del /F /Q Step1*.java
 
 rem Delete the previously generated .tokens files
-IF EXIST *.tokens del /F /Q *.tokens
+IF EXIST *.tokens del /F /Q *.tokens 
