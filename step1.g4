@@ -33,18 +33,13 @@ OPERATOR :  '<='|'>='|'!='|':='|'+'|'-'|'*'|'/'|'='|
             '<'|'>'|'('|')'|';'|',';
 
 STRINGLITERAL : '"'(.~'"')*'"';
-
-FLOATLITERAL : [0-9]*'.'[0-9]+
-
+FLOATLITERAL : [0-9]*'.'[0-9]+;
 INTLITERAL  : [0-9]+;
-
 IDENTIFIER  : [a-zA-Z]([a-z]|[A-Z]|[0-9])*;
-
 WS : [ \n\t\r]+ -> skip;
 
 //IDENTIFIER :
 //:= + - * / = != < > ( ) ; , <= >=
-
 
 ///* Program */
 //program           -> PROGRAM id BEGIN pgm_body END
