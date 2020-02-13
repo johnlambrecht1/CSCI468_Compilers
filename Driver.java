@@ -38,7 +38,7 @@ public class Driver {
         // System.out.println( "vocabulary = " + vocabulary );// debugging output
         Token current = step1Lexer.nextToken();
 
-        System.out.println( "Output to " + file ); // output notification
+        // System.out.println( "Output to " + file ); // output notification
         FileWriter fileWriter = new FileWriter( file + ".out"); // get file writer ready
 
         String tokenValue = current.getText() ;
