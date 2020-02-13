@@ -4,7 +4,7 @@ grammar step1;
 
 //keywords: KEYWORD;
 
-rg : PROGRAM OPERATOR;
+rg : KEYWORD STRINGLITERAL;
 
 COMMENT : '--'.*?[\n]-> skip;
 
@@ -32,7 +32,7 @@ FLOAT   : 'FLOAT';
 OPERATOR :  '<='|'>='|'!='|':='|'+'|'-'|'*'|'/'|'='|
             '<'|'>'|'('|')'|';'|',';
 
-STRINGLITERAL : '"'(.~'"')*'"';
+STRINGLITERAL : '"'(~["\n])*'"';
 FLOATLITERAL : [0-9]*'.'[0-9]+;
 INTLITERAL  : [0-9]+;
 IDENTIFIER  : [a-zA-Z]([a-z]|[A-Z]|[0-9])*;
