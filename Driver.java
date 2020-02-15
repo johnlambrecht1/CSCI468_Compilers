@@ -20,6 +20,7 @@ public class Driver {
         Vocabulary vocabulary = step1Lexer.getVocabulary();
         // System.out.println( "vocabulary = " + vocabulary ); // debugging output
         Token current = step1Lexer.nextToken();
+	String output = "";
 
         // System.out.println( "Output to " + file ); // output notification
         FileWriter fileWriter = new FileWriter( file + ".out"); // get file writer ready
@@ -27,16 +28,21 @@ public class Driver {
         String tokenValue = current.getText() ;
 
         while( tokenValue != "<EOF>" ){
-            // output token info
+            // get token variables
             int tokenTypeNumber = current.getType() ; // get token number
             String tokenTypeName = vocabulary.getSymbolicName( tokenTypeNumber ) ; //convert token number to name
-            System.out.println( "Token Type: " + tokenTypeName ) ;     // write to screen
-            fileWriter.write( "Token Type: " + tokenTypeName + '\n' ); // write to file
-
-            // output value info
             tokenValue = current.getText() ;
-            System.out.println( "Value: " + tokenValue );      // write to screen
-            fileWriter.write( "Value: " + tokenValue + '\n' ); // write to file
+
+            // output token info
+            if ( tokenValue != "<EOF>" ) {
+            	output = "Token Type: " + tokenTypeName + '\n' ;
+                System.out.print( output ) ; // write to screen
+                fileWriter.write( output ) ; // write to file
+
+                output = "Value: " + tokenValue + '\n' ;
+                System.out.print( output ) ; // write to screen
+                fileWriter.write( output ) ; // write to file
+            }
 
             // move to next token
             current = step1Lexer.nextToken();
