@@ -1,4 +1,4 @@
-grammar Step1;
+grammar Step2;
 //CAPS : CAPS is a token (terminal) made up of one or more characters.
 //small case symbols are non-terminals.
 
