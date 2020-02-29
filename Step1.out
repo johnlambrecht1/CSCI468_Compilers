@@ -1,0 +1,1860 @@
+Token Type: IDENTIFIER
+Value: grammar
+Token Type: IDENTIFIER
+Value: Step1
+Token Type: OPERATOR
+Value: ;
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: CAPS
+Token Type: IDENTIFIER
+Value: CAPS
+Token Type: IDENTIFIER
+Value: is
+Token Type: IDENTIFIER
+Value: a
+Token Type: IDENTIFIER
+Value: token
+Token Type: OPERATOR
+Value: (
+Token Type: IDENTIFIER
+Value: terminal
+Token Type: OPERATOR
+Value: )
+Token Type: IDENTIFIER
+Value: made
+Token Type: IDENTIFIER
+Value: up
+Token Type: IDENTIFIER
+Value: of
+Token Type: IDENTIFIER
+Value: one
+Token Type: IDENTIFIER
+Value: or
+Token Type: IDENTIFIER
+Value: more
+Token Type: IDENTIFIER
+Value: characters
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: small
+Token Type: IDENTIFIER
+Value: case
+Token Type: IDENTIFIER
+Value: symbols
+Token Type: IDENTIFIER
+Value: are
+Token Type: IDENTIFIER
+Value: non
+Token Type: OPERATOR
+Value: -
+Token Type: IDENTIFIER
+Value: terminals
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: keywords
+Token Type: IDENTIFIER
+Value: KEYWORD
+Token Type: OPERATOR
+Value: ;
+Token Type: IDENTIFIER
+Value: rg
+Token Type: IDENTIFIER
+Value: KEYWORD
+Token Type: IDENTIFIER
+Value: STRINGLITERAL
+Token Type: OPERATOR
+Value: ;
+Token Type: IDENTIFIER
+Value: COMMENT
+Token Type: IDENTIFIER
+Value: KEYWORD
+Token Type: KEYWORD
+Value: PROGRAM
+Token Type: KEYWORD
+Value: BEGIN
+Token Type: KEYWORD
+Value: END
+Token Type: KEYWORD
+Value: FUNCTION
+Token Type: KEYWORD
+Value: READ
+Token Type: KEYWORD
+Value: WRITE
+Token Type: KEYWORD
+Value: IF
+Token Type: KEYWORD
+Value: ELSE
+Token Type: KEYWORD
+Value: ENDIF
+Token Type: KEYWORD
+Value: WHILE
+Token Type: KEYWORD
+Value: ENDWHILE
+Token Type: KEYWORD
+Value: CONTINUE
+Token Type: KEYWORD
+Value: BREAK
+Token Type: KEYWORD
+Value: RETURN
+Token Type: KEYWORD
+Value: INT
+Token Type: KEYWORD
+Value: VOID
+Token Type: KEYWORD
+Value: STRING
+Token Type: KEYWORD
+Value: FLOAT
+Token Type: OPERATOR
+Value: ;
+Token Type: KEYWORD
+Value: PROGRAM
+Token Type: KEYWORD
+Value: PROGRAM
+Token Type: OPERATOR
+Value: ;
+Token Type: KEYWORD
+Value: BEGIN
+Token Type: KEYWORD
+Value: BEGIN
+Token Type: OPERATOR
+Value: ;
+Token Type: KEYWORD
+Value: END
+Token Type: KEYWORD
+Value: END
+Token Type: OPERATOR
+Value: ;
+Token Type: KEYWORD
+Value: FUNCTION
+Token Type: KEYWORD
+Value: FUNCTION
+Token Type: OPERATOR
+Value: ;
+Token Type: KEYWORD
+Value: READ
+Token Type: KEYWORD
+Value: READ
+Token Type: OPERATOR
+Value: ;
+Token Type: KEYWORD
+Value: WRITE
+Token Type: KEYWORD
+Value: WRITE
+Token Type: OPERATOR
+Value: ;
+Token Type: KEYWORD
+Value: IF
+Token Type: KEYWORD
+Value: IF
+Token Type: OPERATOR
+Value: ;
+Token Type: KEYWORD
+Value: ELSE
+Token Type: KEYWORD
+Value: ELSE
+Token Type: OPERATOR
+Value: ;
+Token Type: KEYWORD
+Value: ENDIF
+Token Type: KEYWORD
+Value: ENDIF
+Token Type: OPERATOR
+Value: ;
+Token Type: KEYWORD
+Value: WHILE
+Token Type: KEYWORD
+Value: WHILE
+Token Type: OPERATOR
+Value: ;
+Token Type: KEYWORD
+Value: ENDWHILE
+Token Type: KEYWORD
+Value: ENDWHILE
+Token Type: OPERATOR
+Value: ;
+Token Type: KEYWORD
+Value: CONTINUE
+Token Type: KEYWORD
+Value: CONTINUE
+Token Type: OPERATOR
+Value: ;
+Token Type: KEYWORD
+Value: BREAK
+Token Type: KEYWORD
+Value: BREAK
+Token Type: OPERATOR
+Value: ;
+Token Type: KEYWORD
+Value: RETURN
+Token Type: KEYWORD
+Value: RETURN
+Token Type: OPERATOR
+Value: ;
+Token Type: KEYWORD
+Value: INT
+Token Type: KEYWORD
+Value: INT
+Token Type: OPERATOR
+Value: ;
+Token Type: KEYWORD
+Value: VOID
+Token Type: KEYWORD
+Value: VOID
+Token Type: OPERATOR
+Value: ;
+Token Type: KEYWORD
+Value: STRING
+Token Type: KEYWORD
+Value: STRING
+Token Type: OPERATOR
+Value: ;
+Token Type: KEYWORD
+Value: FLOAT
+Token Type: KEYWORD
+Value: FLOAT
+Token Type: OPERATOR
+Value: ;
+Token Type: IDENTIFIER
+Value: OPERATOR
+Token Type: OPERATOR
+Value: <=
+Token Type: OPERATOR
+Value: >=
+Token Type: OPERATOR
+Value: !=
+Token Type: OPERATOR
+Value: :=
+Token Type: OPERATOR
+Value: +
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: *
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: =
+Token Type: OPERATOR
+Value: <
+Token Type: OPERATOR
+Value: >
+Token Type: OPERATOR
+Value: (
+Token Type: OPERATOR
+Value: )
+Token Type: OPERATOR
+Value: ;
+Token Type: OPERATOR
+Value: ,
+Token Type: OPERATOR
+Value: ;
+Token Type: IDENTIFIER
+Value: STRINGLITERAL
+Token Type: STRINGLITERAL
+Value: "'(~["
+Token Type: IDENTIFIER
+Value: n
+Token Type: OPERATOR
+Value: )
+Token Type: OPERATOR
+Value: *
+Token Type: IDENTIFIER
+Value: FLOATLITERAL
+Token Type: INTLITERAL
+Value: 0
+Token Type: OPERATOR
+Value: -
+Token Type: INTLITERAL
+Value: 9
+Token Type: OPERATOR
+Value: *
+Token Type: INTLITERAL
+Value: 0
+Token Type: OPERATOR
+Value: -
+Token Type: INTLITERAL
+Value: 9
+Token Type: OPERATOR
+Value: +
+Token Type: OPERATOR
+Value: ;
+Token Type: IDENTIFIER
+Value: INTLITERAL
+Token Type: INTLITERAL
+Value: 0
+Token Type: OPERATOR
+Value: -
+Token Type: INTLITERAL
+Value: 9
+Token Type: OPERATOR
+Value: +
+Token Type: OPERATOR
+Value: ;
+Token Type: IDENTIFIER
+Value: IDENTIFIER
+Token Type: IDENTIFIER
+Value: a
+Token Type: OPERATOR
+Value: -
+Token Type: IDENTIFIER
+Value: zA
+Token Type: OPERATOR
+Value: -
+Token Type: IDENTIFIER
+Value: Z
+Token Type: OPERATOR
+Value: (
+Token Type: IDENTIFIER
+Value: a
+Token Type: OPERATOR
+Value: -
+Token Type: IDENTIFIER
+Value: z
+Token Type: IDENTIFIER
+Value: A
+Token Type: OPERATOR
+Value: -
+Token Type: IDENTIFIER
+Value: Z
+Token Type: INTLITERAL
+Value: 0
+Token Type: OPERATOR
+Value: -
+Token Type: INTLITERAL
+Value: 9
+Token Type: OPERATOR
+Value: )
+Token Type: OPERATOR
+Value: *
+Token Type: OPERATOR
+Value: ;
+Token Type: IDENTIFIER
+Value: WS
+Token Type: IDENTIFIER
+Value: n
+Token Type: IDENTIFIER
+Value: t
+Token Type: IDENTIFIER
+Value: r
+Token Type: OPERATOR
+Value: +
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: IDENTIFIER
+Value: skip
+Token Type: OPERATOR
+Value: ;
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: IDENTIFIER
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: :=
+Token Type: OPERATOR
+Value: +
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: *
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: =
+Token Type: OPERATOR
+Value: !=
+Token Type: OPERATOR
+Value: <
+Token Type: OPERATOR
+Value: >
+Token Type: OPERATOR
+Value: (
+Token Type: OPERATOR
+Value: )
+Token Type: OPERATOR
+Value: ;
+Token Type: OPERATOR
+Value: ,
+Token Type: OPERATOR
+Value: <=
+Token Type: OPERATOR
+Value: >=
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: *
+Token Type: IDENTIFIER
+Value: Program
+Token Type: OPERATOR
+Value: *
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: program
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: KEYWORD
+Value: PROGRAM
+Token Type: IDENTIFIER
+Value: id
+Token Type: KEYWORD
+Value: BEGIN
+Token Type: IDENTIFIER
+Value: pgm
+Token Type: IDENTIFIER
+Value: body
+Token Type: KEYWORD
+Value: END
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: id
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: IDENTIFIER
+Value: IDENTIFIER
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: pgm
+Token Type: IDENTIFIER
+Value: body
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: IDENTIFIER
+Value: decl
+Token Type: IDENTIFIER
+Value: func
+Token Type: IDENTIFIER
+Value: declarations
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: decl
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: IDENTIFIER
+Value: string
+Token Type: IDENTIFIER
+Value: decl
+Token Type: IDENTIFIER
+Value: decl
+Token Type: IDENTIFIER
+Value: var
+Token Type: IDENTIFIER
+Value: decl
+Token Type: IDENTIFIER
+Value: decl
+Token Type: IDENTIFIER
+Value: empty
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: *
+Token Type: IDENTIFIER
+Value: Global
+Token Type: IDENTIFIER
+Value: String
+Token Type: IDENTIFIER
+Value: Declaration
+Token Type: OPERATOR
+Value: *
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: string
+Token Type: IDENTIFIER
+Value: decl
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: KEYWORD
+Value: STRING
+Token Type: IDENTIFIER
+Value: id
+Token Type: OPERATOR
+Value: :=
+Token Type: IDENTIFIER
+Value: str
+Token Type: OPERATOR
+Value: ;
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: str
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: IDENTIFIER
+Value: STRINGLITERAL
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: *
+Token Type: IDENTIFIER
+Value: Variable
+Token Type: IDENTIFIER
+Value: Declaration
+Token Type: OPERATOR
+Value: *
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: var
+Token Type: IDENTIFIER
+Value: decl
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: IDENTIFIER
+Value: var
+Token Type: IDENTIFIER
+Value: type
+Token Type: IDENTIFIER
+Value: id
+Token Type: IDENTIFIER
+Value: list
+Token Type: OPERATOR
+Value: ;
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: var
+Token Type: IDENTIFIER
+Value: type
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: KEYWORD
+Value: FLOAT
+Token Type: KEYWORD
+Value: INT
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: any
+Token Type: IDENTIFIER
+Value: type
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: IDENTIFIER
+Value: var
+Token Type: IDENTIFIER
+Value: type
+Token Type: KEYWORD
+Value: VOID
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: id
+Token Type: IDENTIFIER
+Value: list
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: IDENTIFIER
+Value: id
+Token Type: IDENTIFIER
+Value: id
+Token Type: IDENTIFIER
+Value: tail
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: id
+Token Type: IDENTIFIER
+Value: tail
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: OPERATOR
+Value: ,
+Token Type: IDENTIFIER
+Value: id
+Token Type: IDENTIFIER
+Value: id
+Token Type: IDENTIFIER
+Value: tail
+Token Type: IDENTIFIER
+Value: empty
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: *
+Token Type: IDENTIFIER
+Value: Function
+Token Type: IDENTIFIER
+Value: Paramater
+Token Type: IDENTIFIER
+Value: List
+Token Type: OPERATOR
+Value: *
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: param
+Token Type: IDENTIFIER
+Value: decl
+Token Type: IDENTIFIER
+Value: list
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: IDENTIFIER
+Value: param
+Token Type: IDENTIFIER
+Value: decl
+Token Type: IDENTIFIER
+Value: param
+Token Type: IDENTIFIER
+Value: decl
+Token Type: IDENTIFIER
+Value: tail
+Token Type: IDENTIFIER
+Value: empty
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: param
+Token Type: IDENTIFIER
+Value: decl
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: IDENTIFIER
+Value: var
+Token Type: IDENTIFIER
+Value: type
+Token Type: IDENTIFIER
+Value: id
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: param
+Token Type: IDENTIFIER
+Value: decl
+Token Type: IDENTIFIER
+Value: tail
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: OPERATOR
+Value: ,
+Token Type: IDENTIFIER
+Value: param
+Token Type: IDENTIFIER
+Value: decl
+Token Type: IDENTIFIER
+Value: param
+Token Type: IDENTIFIER
+Value: decl
+Token Type: IDENTIFIER
+Value: tail
+Token Type: IDENTIFIER
+Value: empty
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: *
+Token Type: IDENTIFIER
+Value: Function
+Token Type: IDENTIFIER
+Value: Declarations
+Token Type: OPERATOR
+Value: *
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: func
+Token Type: IDENTIFIER
+Value: declarations
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: IDENTIFIER
+Value: func
+Token Type: IDENTIFIER
+Value: decl
+Token Type: IDENTIFIER
+Value: func
+Token Type: IDENTIFIER
+Value: declarations
+Token Type: IDENTIFIER
+Value: empty
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: func
+Token Type: IDENTIFIER
+Value: decl
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: KEYWORD
+Value: FUNCTION
+Token Type: IDENTIFIER
+Value: any
+Token Type: IDENTIFIER
+Value: type
+Token Type: IDENTIFIER
+Value: id
+Token Type: OPERATOR
+Value: (
+Token Type: IDENTIFIER
+Value: param
+Token Type: IDENTIFIER
+Value: decl
+Token Type: IDENTIFIER
+Value: list
+Token Type: OPERATOR
+Value: )
+Token Type: KEYWORD
+Value: BEGIN
+Token Type: IDENTIFIER
+Value: func
+Token Type: IDENTIFIER
+Value: body
+Token Type: KEYWORD
+Value: END
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: func
+Token Type: IDENTIFIER
+Value: body
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: IDENTIFIER
+Value: decl
+Token Type: IDENTIFIER
+Value: stmt
+Token Type: IDENTIFIER
+Value: list
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: *
+Token Type: IDENTIFIER
+Value: Statement
+Token Type: IDENTIFIER
+Value: List
+Token Type: OPERATOR
+Value: *
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: stmt
+Token Type: IDENTIFIER
+Value: list
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: IDENTIFIER
+Value: stmt
+Token Type: IDENTIFIER
+Value: stmt
+Token Type: IDENTIFIER
+Value: list
+Token Type: IDENTIFIER
+Value: empty
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: stmt
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: IDENTIFIER
+Value: base
+Token Type: IDENTIFIER
+Value: stmt
+Token Type: IDENTIFIER
+Value: if
+Token Type: IDENTIFIER
+Value: stmt
+Token Type: IDENTIFIER
+Value: while
+Token Type: IDENTIFIER
+Value: stmt
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: base
+Token Type: IDENTIFIER
+Value: stmt
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: IDENTIFIER
+Value: assign
+Token Type: IDENTIFIER
+Value: stmt
+Token Type: IDENTIFIER
+Value: read
+Token Type: IDENTIFIER
+Value: stmt
+Token Type: IDENTIFIER
+Value: write
+Token Type: IDENTIFIER
+Value: stmt
+Token Type: IDENTIFIER
+Value: return
+Token Type: IDENTIFIER
+Value: stmt
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: *
+Token Type: IDENTIFIER
+Value: Basic
+Token Type: IDENTIFIER
+Value: Statements
+Token Type: OPERATOR
+Value: *
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: assign
+Token Type: IDENTIFIER
+Value: stmt
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: IDENTIFIER
+Value: assign
+Token Type: IDENTIFIER
+Value: expr
+Token Type: OPERATOR
+Value: ;
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: assign
+Token Type: IDENTIFIER
+Value: expr
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: IDENTIFIER
+Value: id
+Token Type: OPERATOR
+Value: :=
+Token Type: IDENTIFIER
+Value: expr
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: read
+Token Type: IDENTIFIER
+Value: stmt
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: KEYWORD
+Value: READ
+Token Type: OPERATOR
+Value: (
+Token Type: IDENTIFIER
+Value: id
+Token Type: IDENTIFIER
+Value: list
+Token Type: OPERATOR
+Value: )
+Token Type: OPERATOR
+Value: ;
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: write
+Token Type: IDENTIFIER
+Value: stmt
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: KEYWORD
+Value: WRITE
+Token Type: OPERATOR
+Value: (
+Token Type: IDENTIFIER
+Value: id
+Token Type: IDENTIFIER
+Value: list
+Token Type: OPERATOR
+Value: )
+Token Type: OPERATOR
+Value: ;
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: return
+Token Type: IDENTIFIER
+Value: stmt
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: KEYWORD
+Value: RETURN
+Token Type: IDENTIFIER
+Value: expr
+Token Type: OPERATOR
+Value: ;
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: *
+Token Type: IDENTIFIER
+Value: Expressions
+Token Type: OPERATOR
+Value: *
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: expr
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: IDENTIFIER
+Value: expr
+Token Type: IDENTIFIER
+Value: prefix
+Token Type: IDENTIFIER
+Value: factor
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: expr
+Token Type: IDENTIFIER
+Value: prefix
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: IDENTIFIER
+Value: expr
+Token Type: IDENTIFIER
+Value: prefix
+Token Type: IDENTIFIER
+Value: factor
+Token Type: IDENTIFIER
+Value: addop
+Token Type: IDENTIFIER
+Value: empty
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: factor
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: IDENTIFIER
+Value: factor
+Token Type: IDENTIFIER
+Value: prefix
+Token Type: IDENTIFIER
+Value: postfix
+Token Type: IDENTIFIER
+Value: expr
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: factor
+Token Type: IDENTIFIER
+Value: prefix
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: IDENTIFIER
+Value: factor
+Token Type: IDENTIFIER
+Value: prefix
+Token Type: IDENTIFIER
+Value: postfix
+Token Type: IDENTIFIER
+Value: expr
+Token Type: IDENTIFIER
+Value: mulop
+Token Type: IDENTIFIER
+Value: empty
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: postfix
+Token Type: IDENTIFIER
+Value: expr
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: IDENTIFIER
+Value: primary
+Token Type: IDENTIFIER
+Value: call
+Token Type: IDENTIFIER
+Value: expr
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: call
+Token Type: IDENTIFIER
+Value: expr
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: IDENTIFIER
+Value: id
+Token Type: OPERATOR
+Value: (
+Token Type: IDENTIFIER
+Value: expr
+Token Type: IDENTIFIER
+Value: list
+Token Type: OPERATOR
+Value: )
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: expr
+Token Type: IDENTIFIER
+Value: list
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: IDENTIFIER
+Value: expr
+Token Type: IDENTIFIER
+Value: expr
+Token Type: IDENTIFIER
+Value: list
+Token Type: IDENTIFIER
+Value: tail
+Token Type: IDENTIFIER
+Value: empty
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: expr
+Token Type: IDENTIFIER
+Value: list
+Token Type: IDENTIFIER
+Value: tail
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: OPERATOR
+Value: ,
+Token Type: IDENTIFIER
+Value: expr
+Token Type: IDENTIFIER
+Value: expr
+Token Type: IDENTIFIER
+Value: list
+Token Type: IDENTIFIER
+Value: tail
+Token Type: IDENTIFIER
+Value: empty
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: primary
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: OPERATOR
+Value: (
+Token Type: IDENTIFIER
+Value: expr
+Token Type: OPERATOR
+Value: )
+Token Type: IDENTIFIER
+Value: id
+Token Type: IDENTIFIER
+Value: INTLITERAL
+Token Type: IDENTIFIER
+Value: FLOATLITERAL
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: addop
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: OPERATOR
+Value: +
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: mulop
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: OPERATOR
+Value: *
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: *
+Token Type: IDENTIFIER
+Value: Complex
+Token Type: IDENTIFIER
+Value: Statements
+Token Type: IDENTIFIER
+Value: and
+Token Type: IDENTIFIER
+Value: Condition
+Token Type: OPERATOR
+Value: *
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: if
+Token Type: IDENTIFIER
+Value: stmt
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: KEYWORD
+Value: IF
+Token Type: OPERATOR
+Value: (
+Token Type: IDENTIFIER
+Value: cond
+Token Type: OPERATOR
+Value: )
+Token Type: IDENTIFIER
+Value: decl
+Token Type: IDENTIFIER
+Value: stmt
+Token Type: IDENTIFIER
+Value: list
+Token Type: IDENTIFIER
+Value: else
+Token Type: IDENTIFIER
+Value: part
+Token Type: KEYWORD
+Value: ENDIF
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: else
+Token Type: IDENTIFIER
+Value: part
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: KEYWORD
+Value: ELSE
+Token Type: IDENTIFIER
+Value: decl
+Token Type: IDENTIFIER
+Value: stmt
+Token Type: IDENTIFIER
+Value: list
+Token Type: IDENTIFIER
+Value: empty
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: cond
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: IDENTIFIER
+Value: expr
+Token Type: IDENTIFIER
+Value: compop
+Token Type: IDENTIFIER
+Value: expr
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: compop
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: OPERATOR
+Value: <
+Token Type: OPERATOR
+Value: >
+Token Type: OPERATOR
+Value: =
+Token Type: OPERATOR
+Value: !=
+Token Type: OPERATOR
+Value: <=
+Token Type: OPERATOR
+Value: >=
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: *
+Token Type: IDENTIFIER
+Value: While
+Token Type: IDENTIFIER
+Value: statements
+Token Type: OPERATOR
+Value: *
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: while
+Token Type: IDENTIFIER
+Value: stmt
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: >
+Token Type: KEYWORD
+Value: WHILE
+Token Type: OPERATOR
+Value: (
+Token Type: IDENTIFIER
+Value: cond
+Token Type: OPERATOR
+Value: )
+Token Type: IDENTIFIER
+Value: decl
+Token Type: IDENTIFIER
+Value: stmt
+Token Type: IDENTIFIER
+Value: list
+Token Type: KEYWORD
+Value: ENDWHILE
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: an
+Token Type: IDENTIFIER
+Value: IDENTIFIER
+Token Type: IDENTIFIER
+Value: token
+Token Type: IDENTIFIER
+Value: will
+Token Type: IDENTIFIER
+Value: begin
+Token Type: IDENTIFIER
+Value: with
+Token Type: IDENTIFIER
+Value: a
+Token Type: IDENTIFIER
+Value: letter
+Token Type: OPERATOR
+Value: ,
+Token Type: IDENTIFIER
+Value: and
+Token Type: IDENTIFIER
+Value: be
+Token Type: IDENTIFIER
+Value: followed
+Token Type: IDENTIFIER
+Value: by
+Token Type: IDENTIFIER
+Value: any
+Token Type: IDENTIFIER
+Value: number
+Token Type: IDENTIFIER
+Value: of
+Token Type: IDENTIFIER
+Value: letters
+Token Type: IDENTIFIER
+Value: and
+Token Type: IDENTIFIER
+Value: numbers
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: IDENTIFIERS
+Token Type: IDENTIFIER
+Value: are
+Token Type: IDENTIFIER
+Value: case
+Token Type: IDENTIFIER
+Value: sensitive
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: INTLITERAL
+Token Type: IDENTIFIER
+Value: integer
+Token Type: IDENTIFIER
+Value: number
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: ex
+Token Type: OPERATOR
+Value: )
+Token Type: INTLITERAL
+Value: 0
+Token Type: OPERATOR
+Value: ,
+Token Type: INTLITERAL
+Value: 123
+Token Type: OPERATOR
+Value: ,
+Token Type: INTLITERAL
+Value: 678
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: FLOATLITERAL
+Token Type: IDENTIFIER
+Value: floating
+Token Type: IDENTIFIER
+Value: point
+Token Type: IDENTIFIER
+Value: number
+Token Type: IDENTIFIER
+Value: available
+Token Type: IDENTIFIER
+Value: in
+Token Type: IDENTIFIER
+Value: two
+Token Type: IDENTIFIER
+Value: different
+Token Type: IDENTIFIER
+Value: format
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: yyyy
+Token Type: IDENTIFIER
+Value: xxxxx
+Token Type: IDENTIFIER
+Value: or
+Token Type: IDENTIFIER
+Value: xxxxxx
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: ex
+Token Type: OPERATOR
+Value: )
+Token Type: FLOATLITERAL
+Value: 3.141592
+Token Type: OPERATOR
+Value: ,
+Token Type: FLOATLITERAL
+Value: .1414
+Token Type: OPERATOR
+Value: ,
+Token Type: FLOATLITERAL
+Value: .0001
+Token Type: OPERATOR
+Value: ,
+Token Type: FLOATLITERAL
+Value: 456.98
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: STRINGLITERAL
+Token Type: IDENTIFIER
+Value: any
+Token Type: IDENTIFIER
+Value: sequence
+Token Type: IDENTIFIER
+Value: of
+Token Type: IDENTIFIER
+Value: characters
+Token Type: IDENTIFIER
+Value: except
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: between
+Token Type: STRINGLITERAL
+Value: "' and '"
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: ex
+Token Type: OPERATOR
+Value: )
+Token Type: STRINGLITERAL
+Value: "Hello world!"
+Token Type: OPERATOR
+Value: ,
+Token Type: STRINGLITERAL
+Value: "***********"
+Token Type: OPERATOR
+Value: ,
+Token Type: STRINGLITERAL
+Value: "this is a string"
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: COMMENT
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: Starts
+Token Type: IDENTIFIER
+Value: with
+Token Type: STRINGLITERAL
+Value: "--"
+Token Type: IDENTIFIER
+Value: and
+Token Type: IDENTIFIER
+Value: lasts
+Token Type: IDENTIFIER
+Value: till
+Token Type: IDENTIFIER
+Value: the
+Token Type: IDENTIFIER
+Value: end
+Token Type: IDENTIFIER
+Value: of
+Token Type: IDENTIFIER
+Value: line
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: ex
+Token Type: OPERATOR
+Value: )
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: ex
+Token Type: OPERATOR
+Value: )
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: Keywords
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: KEYWORD
+Value: PROGRAM
+Token Type: OPERATOR
+Value: ,
+Token Type: KEYWORD
+Value: BEGIN
+Token Type: OPERATOR
+Value: ,
+Token Type: KEYWORD
+Value: END
+Token Type: OPERATOR
+Value: ,
+Token Type: KEYWORD
+Value: FUNCTION
+Token Type: OPERATOR
+Value: ,
+Token Type: KEYWORD
+Value: READ
+Token Type: OPERATOR
+Value: ,
+Token Type: KEYWORD
+Value: WRITE
+Token Type: OPERATOR
+Value: ,
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: KEYWORD
+Value: IF
+Token Type: OPERATOR
+Value: ,
+Token Type: KEYWORD
+Value: ELSE
+Token Type: OPERATOR
+Value: ,
+Token Type: KEYWORD
+Value: ENDIF
+Token Type: OPERATOR
+Value: ,
+Token Type: KEYWORD
+Value: WHILE
+Token Type: OPERATOR
+Value: ,
+Token Type: KEYWORD
+Value: ENDWHILE
+Token Type: OPERATOR
+Value: ,
+Token Type: KEYWORD
+Value: CONTINUE
+Token Type: OPERATOR
+Value: ,
+Token Type: KEYWORD
+Value: BREAK
+Token Type: OPERATOR
+Value: ,
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: KEYWORD
+Value: RETURN
+Token Type: OPERATOR
+Value: ,
+Token Type: KEYWORD
+Value: INT
+Token Type: OPERATOR
+Value: ,
+Token Type: KEYWORD
+Value: VOID
+Token Type: OPERATOR
+Value: ,
+Token Type: KEYWORD
+Value: STRING
+Token Type: OPERATOR
+Value: ,
+Token Type: KEYWORD
+Value: FLOAT
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: IDENTIFIER
+Value: Operators
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: :=
+Token Type: OPERATOR
+Value: +
+Token Type: OPERATOR
+Value: -
+Token Type: OPERATOR
+Value: *
+Token Type: OPERATOR
+Value: /
+Token Type: OPERATOR
+Value: =
+Token Type: OPERATOR
+Value: !=
+Token Type: OPERATOR
+Value: <
+Token Type: OPERATOR
+Value: >
+Token Type: OPERATOR
+Value: (
+Token Type: OPERATOR
+Value: )
+Token Type: OPERATOR
+Value: ;
+Token Type: OPERATOR
+Value: ,
+Token Type: OPERATOR
+Value: <=
+Token Type: OPERATOR
+Value: >=
+Token Type: EOF
+Value: <EOF>
