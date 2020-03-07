@@ -1,0 +1,26 @@
+#!/bin/bash
+
+cd Scanner
+cd grammar
+
+export CLASSPATH=".:antlr-4.8-complete.jar:$CLASSPATH"
+
+java -Xmx500M -cp "antlr-4.8-complete.jar:$CLASSPATH" org.antlr.v4.Tool little.g4 -o ../src/compiler
+
+cd ..
+cd src
+cd compiler
+
+
+sed -i '1i package compiler;' littleLexer.java
+
+sed -i '1i package compiler;' littleParser.java
+
+sed -i '1i package compiler;' littleListener.java
+
+javac -classpath antlr-4.8-complete.jar Driver.java littleLexer.java littleParser.java littleListener.java
+
+cd ..
+
+
+java compiler.Driver $pwd$1

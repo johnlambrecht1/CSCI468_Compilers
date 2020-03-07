@@ -24,30 +24,35 @@ public class Driver {
         //System.out.println( "file = " + file ); // debugging output
 
         // chars is all of the characters in the file
-        CharStream chars = CharStreams.fromFileName( "./" + args[0] );
-        
+        CharStream chars = CharStreams.fromFileName( fullFileName );
+
         //System.out.println( "chars = " + chars ); // debugging output
 
         // create the lexer from the chars
         littleLexer step1Lexer = new littleLexer( chars );
         CommonTokenStream token = new CommonTokenStream(step1Lexer);
         littleParser parser = new littleParser(token);
-        parser.program();
-        
-        
-        FileWriter step2_file = new FileWriter((fullFileName.replace(".micro", "")) + ".out");
-        
+        parser.removeErrorListeners();
+
+
+        //FileWriter step2_file = new FileWriter((fullFileName.replace(".micro", "")) + ".out");
+
+
+        	 parser.program();
+
+
+
         if ((parser.getNumberOfSyntaxErrors()) == 0) {
         	//String result = "Accepted";
-        	step2_file.write("Accepted");
+        	System.out.println("Accepted");
         }
         else {
         	//String result = "Not Accepted";
-        	step2_file.write("Not accepted");
+        	System.out.println("Not accepted");
         }
-        
-        step2_file.close();
-        
+
+        //step2_file.close();
+
 
     }
 }

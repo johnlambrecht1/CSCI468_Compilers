@@ -1,4 +1,4 @@
-grammar Step2;
+grammar little;
 //CAPS : CAPS is a token (terminal) made up of one or more characters.
 //small case symbols are non-terminals.
 
@@ -36,47 +36,38 @@ FLOATLITERAL : [0-9]*'.'[0-9]+;
 INTLITERAL  : [0-9]+;
 IDENTIFIER  : [a-zA-Z]([a-z]|[A-Z]|[0-9])*;
 WS : [ \n\t\r]+ -> skip;
-
-
 /* Program */
 program           : PROGRAM id BEGIN pgm_body END;
 id                : IDENTIFIER;
 pgm_body          : decl func_declarations;
 decl              : string_decl decl | var_decl decl | ; //empty
-
 /* Global String Declaration */
 string_decl       : STRING id assign_op str ';';
 str               : STRINGLITERAL;
-
 /* Variable Declaration */
 var_decl          : var_type id_list ';';
 var_type          : FLOAT | INT;
 any_type          : var_type | VOID;
 id_list           : id id_tail;
 id_tail           : ',' id id_tail | ; //empty
-
 /* Function Paramater List */
 param_decl_list   : param_decl param_decl_tail | ;//empty
 param_decl        : var_type id;
 param_decl_tail   : ',' param_decl param_decl_tail | ;//empty
-
 /* Function Declarations */
 func_declarations : func_decl func_declarations | ;//empty
 func_decl         : FUNCTION any_type id '('param_decl_list')' BEGIN func_body END;
 func_body         : decl stmt_list;
-
 /* Statement List */
 stmt_list         : (stmt stmt_list) | ;//empty
 stmt              : base_stmt | if_stmt | while_stmt;
 base_stmt         : assign_stmt | read_stmt | write_stmt | return_stmt;
-
 /* Basic Statements */
 assign_stmt       : assign_expr ';';
 assign_expr       : id assign_op expr;
 read_stmt         : READ '(' id_list ')'';';
 write_stmt        : WRITE '(' id_list ')'';';
 return_stmt       : RETURN expr ';';
-
 /* Expressions */
 expr              : expr_prefix factor;
 expr_prefix       : expr_prefix factor addop | ;//empty
@@ -90,25 +81,17 @@ primary           : '(' expr ')' | id | INTLITERAL | FLOATLITERAL;
 addop             : '+' | '-';
 mulop             : '*' | '/';
 assign_op         : ':=';
-
 /* Complex Statements and Condition */
 if_stmt           : IF '(' cond ')' decl stmt_list else_part ENDIF;
 else_part         : ELSE decl stmt_list | ;//empty
 cond              : expr compop expr;
 compop            : '<' | '>' | '=' | '!=' | '<=' | '>=';
-
 /* While statements */
 while_stmt       : WHILE '(' cond ')' decl stmt_list ENDWHILE;
-
 //empty   :   LAMBDA;
-
 //LAMBDA :  ;
-
 ASSIGN_OP   :   ':=';
-
-
 //------
-
 //an IDENTIFIER token will begin with a letter, and be followed by any number of letters and numbers.
 //IDENTIFIERS are case sensitive.
 //
@@ -126,8 +109,6 @@ ASSIGN_OP   :   ':=';
 //      Starts with "--" and lasts till the end of line
 //      ex) -- this is a comment
 //      ex) -- any thing after the "--" is ignored
-
-
 //Keywords
 //
 //PROGRAM,BEGIN,END,FUNCTION,READ,WRITE,
